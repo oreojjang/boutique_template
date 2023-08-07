@@ -57,4 +57,40 @@
   }
   
   
+  /************ Common button style ************/
+.button-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3.75rem;
+}
+
+.common-btn{
+  font-size: .875rem;
+  font-weight: 400;
+  padding: .875rem 1.5625rem;
+  color: #000;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  text-transform: uppercase;
+  column-gap: .5rem;
+  transition:all .4s;
+}
+.common-btn:hover{
+  background: #000;
+  color: #fff;
+}
+
+.white{
+  display: none;
+}
   
+/************ Common Section Title ************/
+.title-box{
+  width: 100%;
+  height: auto;
+
+}

@@ -1,0 +1,97 @@
+/* 1200px */
+@media screen and (max-width:1200px) {
+  nav .navi{
+    order:2;
+  }
+
+  nav .logo{
+    position: static;
+    order: 1;
+    transform: translate(0, 0);
+  }
+  
+  nav .cart{
+    order: 3;
+  }
+}
+/* 900px */
+@media screen and (max-width:900px) {
+  .top-bar{
+    display: none;
+  }
+
+  .section-padding{
+    padding: var(--el-t-section);
+  }
+
+  title-box h2{
+    font-size: 2.5rem;
+  }
+
+  nav .menu-icon{
+    display: block;
+  }
+
+  nav .navi{
+    position: absolute;
+    top: calc(100% + 1.125rem);
+    z-index: 9999;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all .4s;
+  }
+
+  nav .navi a{
+    width: 100%;
+    padding: 1rem 1.35rem;
+    display: inline-block;
+    transition: all .4s;
+  }
+
+  nav .navi a:hover{
+    background: #000;
+    color: #fff;
+  }
+
+  .hero .page-interval{
+    flex: 100%;
+  }
+
+  .hero .hero-text-box{
+    padding: 4.375rem;
+    overflow: hidden;
+    position: relative;
+  }
+  .hero .hero-text-box h1{
+    font-size: 2.875ren;
+  }
+}
+/* 768px */
+@media screen and (max-width:768px) {
+  html, body{
+    font-size: 87.5%;
+  }
+  
+}
+/* 400px */
+@media screen and (max-width:7400px) {
+  .logo img{
+    width: 90px;
+  }
+
+  .hero .hero-text-box{
+    padding: 4rem 3.25rem;
+  }
+
+  .hero .hero-text-box h1{
+    font-size: 2.125rem;
+  }
+
+  .hero .left-box > img{
+    display: none;
+  }
+}
